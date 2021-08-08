@@ -1,5 +1,3 @@
--- sql_query_001
-
 with clsrt_order_roll (date_order_roll, platform, program_id, quantity_clsrt_order_roll) as
          (
              select date                     date_order_roll,
