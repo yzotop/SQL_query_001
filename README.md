@@ -18,7 +18,7 @@ with clsrt_order_roll (date_order_roll, platform, program_id, quantity_clsrt_ord
                and platform in ('mobile', 'pc')
                and regexp_like(page_url, 'order')
              group by 1, 2, 3
-         ),
+         )
 
      clsrt_paid (date, platform, program_id, quantity_paid) as
          (
